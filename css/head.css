@@ -6,9 +6,11 @@
     box-sizing: border-box;
 
     display: flex;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-
+    
     padding-top: .75rem;
     padding-bottom: .75rem;
 
@@ -19,6 +21,9 @@
 
 .head__logo {
     margin-bottom: 1rem;
+    width: 55px;
+    height: 55px;
+
 }
 
 .head__navegacion {
