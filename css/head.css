@@ -8,8 +8,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-top: .75rem;
-    padding-bottom: .75rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     position: absolute;
 }
 

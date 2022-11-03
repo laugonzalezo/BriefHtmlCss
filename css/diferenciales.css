@@ -20,8 +20,6 @@
 }
 
 .item__titulo {
-    display: flex;
-    align-self: start;
     color: var(--fuente-ceniza-oscuro);
     font-weight: 700;
     font-size: 1.2rem;
@@ -30,8 +28,6 @@
 }
 
 .item__texto {
-    display: flex;
-    align-items: baseline;
     line-height: normal;
 }
 
