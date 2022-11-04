@@ -1,4 +1,5 @@
 .diferenciales {
+    display: flex;
     justify-content: space-between;
     flex-direction: row;
     padding-top: 3.5rem;
@@ -6,25 +7,28 @@
 }
 
 .diferenciales__lista {
-    display: flex;
     flex-flow: wrap;
     justify-content: space-evenly;
-    flex-direction: row;
-}
+    }
 
 .diferenciales__item {
-    display: flex;
-    box-sizing: content-box;
-    padding: 2rem 0 2rem 5rem;
-    background-repeat: no-repeat;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    padding: 4rem;
 }
 
 .item__titulo {
-    color: var(--fuente-ceniza-oscuro);
+    font-family: 'Open Sans';
+    font-style: normal;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 19px;
+    line-height: 19px;
     text-transform: uppercase;
-    margin-bottom: 1.5rem;
+    color: #4F4C4C;
 }
 
 .item__texto {
@@ -32,13 +36,13 @@
 }
 
 .diferenciales__item-reloj {
-    background-image: url(../img/reloj.png);
+    background-image: url(../img/icono-reloj.png);
 }
 
-.diferenciales__item-dinero {
-    background-image: url(../img/ahorro.png);
+.diferenciales__item-enfoque {
+    background-image: url(../img/icono-enfoque.png);
 }
 
 .diferenciales__item-quimica {
-    background-image: url(../img/quimico.png);
+    background-image: url(../img/icono-quimica.png);
 }

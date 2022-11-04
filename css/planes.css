@@ -22,7 +22,6 @@
 .tarjetas {
     display: flex;
     flex-direction: column;
-
     background-color: var(--background-blanco);
 
     width: 100%;
